@@ -17,8 +17,8 @@ function displayHeader() {
   process.stdout.write('\x1Bc');
   console.log('========================================'.cyan);
   console.log('=         NODEPAY NETWORK BOT          ='.cyan);
-  console.log('=         WELCOME & ENJOY SIR          ='.cyan);
-  console.log('=        AUTHOR : NOFAN RAMBE          ='.cyan);
+  console.log('=         WELCOME & ENJOY SIR!         ='.cyan);
+  console.log('=         AUTHOR : NOFAN RAMBE         ='.cyan);
   console.log('========================================'.cyan);
   console.log();
 }
