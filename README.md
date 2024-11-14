@@ -68,7 +68,7 @@ ey...
 
 ### 2. `proxy.txt`
 
-- Add your proxy details in `proxy.txt`. Each line should have the format:
+Add your proxy details in `proxy.txt`. Each line should have the format:
 
 ```text
 host:port:username:password
