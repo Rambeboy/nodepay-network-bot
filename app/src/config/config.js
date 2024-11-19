@@ -1,1 +1,13 @@
-function _0x1de1(_0x4355b7,_0xef3228){var _0x10dfb7=_0x10df();return _0x1de1=function(_0x1de122,_0x585423){_0x1de122=_0x1de122-0x93;var _0x16f94=_0x10dfb7[_0x1de122];return _0x16f94;},_0x1de1(_0x4355b7,_0xef3228);}var _0x2b3484=_0x1de1;(function(_0x39d84e,_0xb9cc2b){var _0x2bd5c6=_0x1de1,_0x4fa3bd=_0x39d84e();while(!![]){try{var _0x593e17=parseInt(_0x2bd5c6(0x99))/0x1+parseInt(_0x2bd5c6(0x97))/0x2+parseInt(_0x2bd5c6(0x93))/0x3*(-parseInt(_0x2bd5c6(0x9d))/0x4)+-parseInt(_0x2bd5c6(0x94))/0x5*(-parseInt(_0x2bd5c6(0xa0))/0x6)+-parseInt(_0x2bd5c6(0x9c))/0x7*(parseInt(_0x2bd5c6(0xa4))/0x8)+-parseInt(_0x2bd5c6(0xa3))/0x9*(-parseInt(_0x2bd5c6(0x95))/0xa)+-parseInt(_0x2bd5c6(0x9b))/0xb;if(_0x593e17===_0xb9cc2b)break;else _0x4fa3bd['push'](_0x4fa3bd['shift']());}catch(_0x51360f){_0x4fa3bd['push'](_0x4fa3bd['shift']());}}}(_0x10df,0x8a610));class Config{constructor(){var _0x4bd0d7=_0x1de1;this[_0x4bd0d7(0xa5)]=_0x4bd0d7(0xa1),this[_0x4bd0d7(0x9e)]=_0x4bd0d7(0x98),this['pingURL']=_0x4bd0d7(0x9a),this['retryInterval']=0x7530,this[_0x4bd0d7(0x96)]=_0x4bd0d7(0x9f);}}function _0x10df(){var _0x625f85=['8SpumwR','baseURL','330903ZEVkBO','185UhJiQV','10TZUiKp','sessionURL','1189048cDaick','https://ipinfo.io/json','696153iJWgYj','http://52.77.10.116/api/network/ping','10231430mvdHcs','1612443LUykhX','40FOVIaX','ipCheckURL','http://18.136.143.169/api/auth/session','99474HWbsoQ','https://nodepay.org','exports','8335701YggKCN'];_0x10df=function(){return _0x625f85;};return _0x10df();}module[_0x2b3484(0xa2)]=Config;
+class Config {
+  constructor() {
+    this.baseURL = "https://nodepay.org";
+    this.ipCheckURL = "https://ipinfo.io/json";
+    this.pingURL = "http://54.255.192.166/api/network/ping",
+                   "http://52.77.10.116/api/network/ping",
+                   "http://13.215.134.222/api/network/ping",
+                   "http://52.74.35.173/api/network/ping";
+    this.retryInterval = 0x7530;
+    this.sessionURL = "http://18.136.143.169/api/auth/session";
+  }
+}
+module.exports = Config;
