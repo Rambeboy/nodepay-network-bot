@@ -9,6 +9,12 @@ class Bot {
     this.proxyCheck = new ProxyChecker(config, logger);
   }
 
+  generateRandomPoints() {
+  const min = this.config.randomPointsMin;
+  const max = this.config.randomPointsMax;
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
   async connect(token, proxy = null) {
     try {
       const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
@@ -94,6 +100,8 @@ class Bot {
       }
 
       await axios.post(this.config.pingURL, pingData, config);
+      const randomPoints = 
+      this.generateRandomPoints();
       console.log(`📡 ${'Ping sent'.cyan} for UID: ${uid}`);
       this.logger.info('Ping sent', {
         uid,
