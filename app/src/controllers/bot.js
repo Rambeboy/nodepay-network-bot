@@ -11,7 +11,7 @@ class Bot {
 
   async connect(token, proxy = null) {
     try {
-      const userAgent = 'Mozilla/5.0 ... Safari/537.3';
+      const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
       const accountInfo = await this.getSession(token, userAgent, proxy);
 
       console.log(
@@ -80,7 +80,7 @@ class Bot {
         headers: {
           Authorization: `Bearer ${token}`,
           'Content-Type': 'application/json',
-          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+          'User-Agent': 'userAgent',
           Accept: 'application/json',
         },
       };
