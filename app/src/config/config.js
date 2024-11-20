@@ -9,7 +9,7 @@ class Config {
       "http://52.77.10.116/api/network/ping"
     ]
     this.retryInterval = 0x7530;
-    this.sessionURL = "http://18.136.143.169/api/auth/session";
+    this.sessionURL = "http://104.22.38.228/api/auth/session";
   }
 }
 module.exports = Config;
