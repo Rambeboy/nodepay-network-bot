@@ -10,8 +10,6 @@ class Config {
     ]
     this.retryInterval = 0x7530;
     this.sessionURL = "http://18.136.143.169/api/auth/session";
-    this.randomPointsMin = 5;
-    this.randomPointsMax = 50;
   }
 }
 module.exports = Config;
