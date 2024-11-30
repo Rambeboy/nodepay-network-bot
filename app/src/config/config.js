@@ -1,1 +1,11 @@
-(function(_0x39146c,_0x2c193b){var _0x1361ce=_0x1477,_0x205710=_0x39146c();while(!![]){try{var _0x36bba8=parseInt(_0x1361ce(0xe0))/0x1*(-parseInt(_0x1361ce(0xe8))/0x2)+parseInt(_0x1361ce(0xe5))/0x3*(-parseInt(_0x1361ce(0xdc))/0x4)+parseInt(_0x1361ce(0xdd))/0x5*(parseInt(_0x1361ce(0xe3))/0x6)+parseInt(_0x1361ce(0xe4))/0x7+-parseInt(_0x1361ce(0xea))/0x8*(-parseInt(_0x1361ce(0xe9))/0x9)+parseInt(_0x1361ce(0xdb))/0xa*(-parseInt(_0x1361ce(0xda))/0xb)+parseInt(_0x1361ce(0xe7))/0xc;if(_0x36bba8===_0x2c193b)break;else _0x205710['push'](_0x205710['shift']());}catch(_0xbec780){_0x205710['push'](_0x205710['shift']());}}}(_0x10f7,0x82eba));function _0x1477(_0x464ed1,_0x12b753){var _0x10f7c9=_0x10f7();return _0x1477=function(_0x147701,_0x2e080d){_0x147701=_0x147701-0xda;var _0x188c6f=_0x10f7c9[_0x147701];return _0x188c6f;},_0x1477(_0x464ed1,_0x12b753);}function _0x10f7(){var _0x13e735=['43WZgBtH','https://nodepay.org','http://api.nodepay.ai/api/auth/session','6vFxphv','1451660oiKKlw','69RZuVzI','retryInterval','18885204FFTbiR','44016vMfdWv','1354392VhSacZ','16TaBPoB','352FLkGSH','170860MIcUwk','14724oKajcW','159430IebjXx','http://18.142.29.174/api/network/ping','baseURL'];_0x10f7=function(){return _0x13e735;};return _0x10f7();}class Config{constructor(){var _0x3b0e06=_0x1477;this[_0x3b0e06(0xdf)]=_0x3b0e06(0xe1),this['ipCheckURL']='https://ipinfo.io/json',this['pingURL']=_0x3b0e06(0xde),this[_0x3b0e06(0xe6)]=0x7530,this['sessionURL']=_0x3b0e06(0xe2);}}module['exports']=Config;
+class Config {
+  constructor() {
+    this.baseURL = 'https://nodepay.org';
+    this.ipCheckURL = 'https://ipinfo.io/json';
+    this.pingURL = 'http://18.142.29.174/api/network/ping';
+    this.retryInterval = 30000;
+    this.sessionURL = 'http://api.nodepay.ai/api/auth/session';
+  }
+}
+
+module.exports = Config;
