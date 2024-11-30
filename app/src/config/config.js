@@ -8,7 +8,7 @@ class Config {
     "http://54.255.192.166/api/network/ping",
   ],
     this.retryInterval = 30000;
-    this.sessionURL = 'http://18.136.143.169/api/auth/session';
+    this.sessionURL = 'http://api.nodepay.ai/api/auth/session';
   }
 }
 
