@@ -94,7 +94,15 @@ class Bot {
           Authorization: `Bearer ${token}`,
           'Content-Type': 'application/json',
           'User-Agent': userAgent,
-          Accept: 'application/json',
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Origin": "chrome-extension://lgmpfmgeabnnlemejacfljbmonaomfmm",
+          "Sec-Ch-Ua": '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+          "Sec-Ch-Ua-Mobile": "?0",
+          "Sec-Ch-Ua-Platform": '"Windows"',
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "cors-site",
         },
       };
 
