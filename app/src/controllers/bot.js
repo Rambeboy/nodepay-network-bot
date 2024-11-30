@@ -1,1 +1,131 @@
-const _0x438470=_0x3939;function _0x3939(_0xa1b9c5,_0x4f73f2){const _0x20ad08=_0x20ad();return _0x3939=function(_0x393931,_0x41f61d){_0x393931=_0x393931-0xd9;let _0x4a8532=_0x20ad08[_0x393931];return _0x4a8532;},_0x3939(_0xa1b9c5,_0x4f73f2);}function _0x20ad(){const _0x45ca4b=['pingURL','host','SIGINT','Ping\x20request\x20failed','username','sessionURL','3082926HDxsEp','Bearer\x20','post','error','27364PJPJUh','118TmsYSS','Ping\x20sent','sendPing','browser_id','uid','\x0a👋\x20Shutting\x20down...','axios','11147930NgLpoW','Connected\x20to\x20session','916455jDdzAf','16fvpUbk','getSession','buildProxyConfig','floor','message','direct','crypto','logger','2766208yoWHbG','proxyCheck','application/json','randomBytes','hex','log','data','name','./proxyChecker','exports','\x20for\x20UID:\x20','config','red','info','9wEtixd','📡\x20','1283082iEFmvZ','password','listenerCount','proxy','41200819NPPkKC','toString','35GEXJuO','Connection\x20error','Ping\x20error'];_0x20ad=function(){return _0x45ca4b;};return _0x20ad();}(function(_0x4b6634,_0x34f474){const _0x281bb0=_0x3939,_0x48e304=_0x4b6634();while(!![]){try{const _0x5a1c22=parseInt(_0x281bb0(0xeb))/0x1*(-parseInt(_0x281bb0(0xea))/0x2)+parseInt(_0x281bb0(0xf4))/0x3*(parseInt(_0x281bb0(0xf5))/0x4)+parseInt(_0x281bb0(0xdd))/0x5*(-parseInt(_0x281bb0(0x10d))/0x6)+parseInt(_0x281bb0(0xe6))/0x7+parseInt(_0x281bb0(0xfd))/0x8*(-parseInt(_0x281bb0(0x10b))/0x9)+-parseInt(_0x281bb0(0xf2))/0xa+parseInt(_0x281bb0(0xdb))/0xb;if(_0x5a1c22===_0x34f474)break;else _0x48e304['push'](_0x48e304['shift']());}catch(_0x18971e){_0x48e304['push'](_0x48e304['shift']());}}}(_0x20ad,0xcc149));const axios=require(_0x438470(0xf1)),crypto=require(_0x438470(0xfb)),ProxyChecker=require(_0x438470(0x105));class Bot{constructor(_0x38caf9,_0x9bd8fa){const _0x1ae7eb=_0x438470;this[_0x1ae7eb(0x108)]=_0x38caf9,this[_0x1ae7eb(0xfc)]=_0x9bd8fa,this[_0x1ae7eb(0xfe)]=new ProxyChecker(_0x38caf9,_0x9bd8fa);}async['connect'](_0x3586f2,_0x84dd2b=null){const _0x5f4777=_0x438470;try{const _0x31da64='Mozilla/5.0\x20...\x20Safari/537.3',_0x18f384=await this[_0x5f4777(0xf6)](_0x3586f2,_0x31da64,_0x84dd2b);console[_0x5f4777(0x102)]('✅\x20'+_0x5f4777(0xf3)['green']+_0x5f4777(0x107)+_0x18f384[_0x5f4777(0xef)]),this['logger'][_0x5f4777(0x10a)]('Session\x20info',{'uid':_0x18f384[_0x5f4777(0xef)],'name':_0x18f384[_0x5f4777(0x104)],'useProxy':!!_0x84dd2b}),console[_0x5f4777(0x102)]('');const _0x4923ab=setInterval(async()=>{const _0x2f97aa=_0x5f4777;try{await this[_0x2f97aa(0xed)](_0x18f384,_0x3586f2,_0x31da64,_0x84dd2b);}catch(_0x40831e){console[_0x2f97aa(0x102)]('❌\x20'+_0x2f97aa(0xdf)['red']+':\x20'+_0x40831e[_0x2f97aa(0xf9)]),this[_0x2f97aa(0xfc)][_0x2f97aa(0xe9)](_0x2f97aa(0xdf),{'error':_0x40831e[_0x2f97aa(0xf9)]});}},this[_0x5f4777(0x108)]['retryInterval']);!process[_0x5f4777(0xd9)](_0x5f4777(0xe2))&&process['once'](_0x5f4777(0xe2),()=>{const _0x1214fa=_0x5f4777;clearInterval(_0x4923ab),console[_0x1214fa(0x102)](_0x1214fa(0xf0));});}catch(_0x42a4b2){console[_0x5f4777(0x102)]('❌\x20'+_0x5f4777(0xde)[_0x5f4777(0x109)]+':\x20'+_0x42a4b2[_0x5f4777(0xf9)]),this[_0x5f4777(0xfc)][_0x5f4777(0xe9)](_0x5f4777(0xde),{'error':_0x42a4b2[_0x5f4777(0xf9)],'proxy':_0x84dd2b});}}async[_0x438470(0xf6)](_0x1d30f1,_0x4a6704,_0x1e69ab){const _0x21426a=_0x438470;try{const _0x1c48bb={'headers':{'Authorization':_0x21426a(0xe7)+_0x1d30f1,'Content-Type':_0x21426a(0xff),'User-Agent':_0x4a6704,'Accept':_0x21426a(0xff)}};_0x1e69ab&&(_0x1c48bb[_0x21426a(0xda)]=this['buildProxyConfig'](_0x1e69ab));const _0x234009=await axios[_0x21426a(0xe8)](this[_0x21426a(0x108)][_0x21426a(0xe5)],{},_0x1c48bb);return _0x234009[_0x21426a(0x103)][_0x21426a(0x103)];}catch(_0x5caaaf){throw new Error('Session\x20request\x20failed');}}async[_0x438470(0xed)](_0x29227a,_0x4fe6a4,_0x17820b,_0x6bc29d){const _0x14a31b=_0x438470,_0x59f9e5=_0x29227a[_0x14a31b(0xef)]||crypto[_0x14a31b(0x100)](0x8)[_0x14a31b(0xdc)](_0x14a31b(0x101)),_0x3b9478=_0x29227a[_0x14a31b(0xee)]||crypto[_0x14a31b(0x100)](0x8)[_0x14a31b(0xdc)]('hex'),_0x21a4c4={'id':_0x59f9e5,'browser_id':_0x3b9478,'timestamp':Math[_0x14a31b(0xf8)](Date['now']()/0x3e8),'version':'2.2.7'};try{const _0x1a994c={'headers':{'Authorization':'Bearer\x20'+_0x4fe6a4,'Content-Type':'application/json','User-Agent':_0x17820b,'Accept':_0x14a31b(0xff)}};_0x6bc29d&&(_0x1a994c[_0x14a31b(0xda)]=this[_0x14a31b(0xf7)](_0x6bc29d)),await axios['post'](this[_0x14a31b(0x108)][_0x14a31b(0xe0)],_0x21a4c4,_0x1a994c),console[_0x14a31b(0x102)](_0x14a31b(0x10c)+_0x14a31b(0xec)['cyan']+_0x14a31b(0x107)+_0x59f9e5),this[_0x14a31b(0xfc)][_0x14a31b(0x10a)](_0x14a31b(0xec),{'uid':_0x59f9e5,'browserId':_0x3b9478,'ip':_0x6bc29d?_0x6bc29d['host']:_0x14a31b(0xfa)});}catch(_0x5939fe){throw new Error(_0x14a31b(0xe3));}}[_0x438470(0xf7)](_0x5f1c8a){const _0x5ad87a=_0x438470;return _0x5f1c8a&&_0x5f1c8a[_0x5ad87a(0xe1)]?{'host':_0x5f1c8a['host'],'port':parseInt(_0x5f1c8a['port']),'auth':_0x5f1c8a[_0x5ad87a(0xe4)]&&_0x5f1c8a[_0x5ad87a(0x10e)]?{'username':_0x5f1c8a[_0x5ad87a(0xe4)],'password':_0x5f1c8a['password']}:undefined}:undefined;}}module[_0x438470(0x106)]=Bot;
+const axios = require('axios');
+const crypto = require('crypto');
+const ProxyChecker = require('./proxyChecker');
+
+class Bot {
+  constructor(config, logger) {
+    this.config = config;
+    this.logger = logger;
+    this.proxyCheck = new ProxyChecker(config, logger);
+  }
+
+  async connect(token, proxy = null) {
+    try {
+      const userAgent = 'Mozilla/5.0 ... Safari/537.3';
+      const accountInfo = await this.getSession(token, userAgent, proxy);
+
+      console.log(
+        `✅ ${'Connected to session'.green} for UID: ${accountInfo.uid}`
+      );
+      this.logger.info('Session info', {
+        uid: accountInfo.uid,
+        name: accountInfo.name,
+        useProxy: !!proxy,
+      });
+
+      console.log('');
+
+      const interval = setInterval(async () => {
+        try {
+          await this.sendPing(accountInfo, token, userAgent, proxy);
+        } catch (error) {
+          console.log(`❌ ${'Ping error'.red}: ${error.message}`);
+          this.logger.error('Ping error', { error: error.message });
+        }
+      }, this.config.retryInterval);
+
+      if (!process.listenerCount('SIGINT')) {
+        process.once('SIGINT', () => {
+          clearInterval(interval);
+          console.log('\n👋 Shutting down...');
+        });
+      }
+    } catch (error) {
+      console.log(`❌ ${'Connection error'.red}: ${error.message}`);
+      this.logger.error('Connection error', { error: error.message, proxy });
+    }
+  }
+
+  async getSession(token, userAgent, proxy) {
+    try {
+      const config = {
+        headers: {
+          Authorization: `Bearer ${token}`,
+          'Content-Type': 'application/json',
+          'User-Agent': userAgent,
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Origin": "chrome-extension://lgmpfmgeabnnlemejacfljbmonaomfmm",
+          "Sec-Ch-Ua": '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+          "Sec-Ch-Ua-Mobile": "?0",
+          "Sec-Ch-Ua-Platform": '"Windows"',
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "cors-site",
+        },
+      };
+
+      if (proxy) {
+        config.proxy = this.buildProxyConfig(proxy);
+      }
+
+      const response = await axios.post(this.config.sessionURL, {}, config);
+      return response.data.data;
+    } catch (error) {
+      throw new Error('Session request failed');
+    }
+  }
+
+  async sendPing(accountInfo, token, userAgent, proxy) {
+    const uid = accountInfo.uid || crypto.randomBytes(8).toString('hex');
+    const browserId =
+      accountInfo.browser_id || crypto.randomBytes(8).toString('hex');
+
+    const pingData = {
+      id: uid,
+      browser_id: browserId,
+      timestamp: Math.floor(Date.now() / 1000),
+      version: '2.2.7',
+    };
+
+    try {
+      const config = {
+        headers: {
+          Authorization: `Bearer ${token}`,
+          'Content-Type': 'application/json',
+          'User-Agent': userAgent,
+          Accept: 'application/json',
+        },
+      };
+
+      if (proxy) {
+        config.proxy = this.buildProxyConfig(proxy);
+      }
+
+      await axios.post(this.config.pingURL, pingData, config);
+      console.log(`📡 ${'Ping sent'.cyan} for UID: ${uid}`);
+      this.logger.info('Ping sent', {
+        uid,
+        browserId,
+        ip: proxy ? proxy.host : 'direct',
+      });
+    } catch (error) {
+      throw new Error('Ping request failed');
+    }
+  }
+
+  buildProxyConfig(proxy) {
+    return proxy && proxy.host
+      ? {
+          host: proxy.host,
+          port: parseInt(proxy.port),
+          auth:
+            proxy.username && proxy.password
+              ? { username: proxy.username, password: proxy.password }
+              : undefined,
+        }
+      : undefined;
+  }
+}
+
+module.exports = Bot;
